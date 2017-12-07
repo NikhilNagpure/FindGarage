@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlAddedAttendees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/drop_shadow_and_shape" >
+
+        <com.edelweiss.eaaanewre.custom.CustomAutocompleteTextView
+            android:id="@+id/actvAddExtraCompanyName"
+            style="@style/auto_complete_text_view_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_toStartOf="@+id/llRemove">
+
+            <requestFocus />
+        </com.edelweiss.eaaanewre.custom.CustomAutocompleteTextView>
+
+        <LinearLayout
+            android:id="@+id/llRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/ivRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/content_description"
+                android:paddingRight="@dimen/Contact_Custom_extra_company_ivRemove"
+                android:src="@drawable/plus" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

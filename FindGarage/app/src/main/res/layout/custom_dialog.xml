@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/dialog_alert" >
+
+    <com.edelweiss.nikhilnagpure.findgarage.custom.CustomFontTextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/dialogTitle"
+        android:textColor="@color/colorThemeBlue"
+        android:textSize="19sp"
+        custom:customFont="@string/helveticaneue_ltstd_cn" />
+
+    <View
+        android:id="@+id/vDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvDialogTitle"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGreyBg" />
+
+    <LinearLayout
+        android:id="@+id/llAlertText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vDialog"
+        android:padding="8dp" >
+
+        <com.edelweiss.nikhilnagpure.findgarage.custom.CustomFontTextView
+            android:id="@+id/tvDialogContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/dialogContent"
+            android:textColor="@color/colorGreyText"
+            android:textSize="15sp"
+            custom:customFont="@string/helveticaneue_ltstd_lt" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/llAlertText"
+        android:padding="8dp" >
+
+        <Button
+            android:id="@+id/btNoDialog"
+            style="@style/ButtonStyleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/dialogBtNo"
+            android:textColor="@color/colorThemeOrange"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btYesDialog"
+            style="@style/ButtonStyleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/btNoDialog"
+            android:layout_toRightOf="@+id/btNoDialog"
+            android:background="@android:color/transparent"
+            android:text="@string/dialogBtYes"
+            android:textColor="@color/colorThemeBlue"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

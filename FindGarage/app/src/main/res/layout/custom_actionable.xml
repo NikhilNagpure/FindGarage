@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreyBg"
+    android:paddingBottom="@dimen/intraction_other_notes_padding" >
+
+    <LinearLayout
+        android:id="@+id/llActionableTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drop_shadow_and_shape"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <com.edelweiss.eaaanewre.custom.CustomAutocompleteTextView
+                android:id="@+id/etActionableName"
+                style="@style/auto_complete_text_view_field"
+                android:background="@android:color/transparent"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGreyBg" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <com.edelweiss.eaaanewre.custom.CustomAutocompleteTextView
+                android:id="@+id/etActionableDate"
+                style="@style/auto_complete_text_view_field"
+                android:background="@android:color/transparent"
+                android:editable="false"
+              />
+
+            <ImageView
+                android:id="@+id/ivDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/extra_pluse_buttom_margin_right"
+                android:src="@drawable/date2" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGreyBg" />
+
+        <LinearLayout
+            android:id="@+id/llIvRemove"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ivRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/plus" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

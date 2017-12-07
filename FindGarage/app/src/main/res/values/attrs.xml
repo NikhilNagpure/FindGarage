@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FontTextView">
+        <attr name="customFont" format="string" />
+        <attr name="Mandatory" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FontAutocompleteTextView">
+        <attr name="customFontAutocompleteTextView" format="string" />
+        <attr name="customRegularString" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FontButton">
+        <attr name="customFontButton" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxScroll">
+        <attr name="parallax_factor" format="float" />
+        <attr name="alpha_factor" format="float" />
+        <attr name="inner_parallax_factor" format="float" />
+        <attr name="parallax_views_num" format="integer" />
+        <attr name="circular_parallax" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_headerLayout" format="reference"/>
+        <attr name="el_contentLayout" format="reference" />
+        <attr name="el_headerImage" format="reference" />
+        <attr name="el_duration" format="integer" />
+        <attr name="el_headerCheckBox" format="reference" />
+    </declare-styleable>
+
+
+
+
+</resources>

@@ -1,0 +1,200 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+
+    <dimen name="text_size_tab">12sp</dimen>
+    <dimen name="text_size_interaction">15sp</dimen>
+    <dimen name="text_size_interaction_auto_complete_text_view">19sp</dimen>
+    <dimen name="company_textView_text_size">20sp</dimen>
+    <dimen name="intraction_button_text_size">13sp</dimen>
+    <dimen name="ll_padding_left">16dp</dimen>
+    <dimen name="ll_padding_right">16dp</dimen>
+    <dimen name="extra_pluse_buttom_margin_right">7dp</dimen>
+
+    <!-- Menu -->
+    <dimen name="menu_ll_imageView_padding_bottom">20dp</dimen>
+    <dimen name="menu_ll_imageView_padding_left">10dp</dimen>
+    <dimen name="menu_ll_imageView_padding_top">40dp</dimen>
+    <dimen name="menu_ll_tvHome_padding_bottom">10dp</dimen>
+    <dimen name="menu_ll_tvHome_padding_left">20dp</dimen>
+    <dimen name="menu_ll_tvHome_padding_top">50dp</dimen>
+    <dimen name="menu_ll_tv_padding_bottom">10dp</dimen>
+    <dimen name="menu_ll_tv_padding_left">20dp</dimen>
+    <dimen name="menu_ll_tv_padding_top">10dp</dimen>
+    <dimen name="tvHome_padding_left">50dp</dimen>
+    <dimen name="menu_textView_text_size">14dp</dimen>
+    <dimen name="menu_textView_padding_left">15dp</dimen>
+    <dimen name="view_margin_bottom">5dp</dimen>
+    <dimen name="view_margin_left">4dp</dimen>
+    <dimen name="view_margin_start">5dp</dimen>
+    <dimen name="view_margin_top">4dp</dimen>
+    <dimen name="view_padding_left">4dp</dimen>
+    <dimen name="view_padding_start">4dp</dimen>
+    <dimen name="imageView_layout_height">20dp</dimen>
+    <dimen name="view_layout_height">1dp</dimen>
+    <dimen name="menu_llpadding_bottom">20dp</dimen>
+    <dimen name="menu_llpadding_left">10dp</dimen>
+    <dimen name="menu_llpadding_top">40dp</dimen>
+    <dimen name="imageView_padding">30dp</dimen>
+
+    <!-- login -->
+    <dimen name="login_layout_padding">30dp</dimen>
+    <dimen name="login_textsize">15dp</dimen>
+    <dimen name="login_textsize_company_name">13dp</dimen>
+
+    <!-- action bar -->
+    <dimen name="action_bar_image_view_padding">10dp</dimen>
+
+    <!-- custom Dialog -->
+    <dimen name="custom_dialog_text_size">14sp</dimen>
+    <dimen name="custom_dialog_paading">15dp</dimen>
+
+    <!-- auto complete -->
+    <dimen name="auto_complete_field_left_right">16dp</dimen>
+    <dimen name="auto_complete_field_top_bottom">9dp</dimen>
+    <dimen name="auto_complete_field_text_size">15sp</dimen>
+
+    <!-- home screen -->
+    <dimen name="home_screen_tab_text_size">15sp</dimen>
+    <dimen name="home_screen_tab_height">35dp</dimen>
+    <dimen name="home_screen_tab_margin_top">20dp</dimen>
+
+    <!-- Intraction home screen list -->
+    <dimen name="home_screen_intraction_row_company_text_size">20sp</dimen>
+    <dimen name="home_screen_intraction_row_date_and_time_text_size">10sp</dimen>
+    <dimen name="home_screen_intraction_mrgin_from_top">5sp</dimen>
+
+    <!-- Intraction -->
+
+    <dimen name="intraction_other_notes_padding">9dp</dimen>
+    <dimen name="intraction_other_notes_hight">80dp</dimen>
+    <dimen name="intraction_button_top_mrgin">50dp</dimen>
+    <dimen name="intraction_header_icon_pading">15dp</dimen>
+    <dimen name="intrest_level_of_interest_circle_size">40dp</dimen>
+    <dimen name="intrest_level_of_interest_layout_hight">65dp</dimen>
+    <dimen name="intrest_level_of_interest_circle_size_half">15dp</dimen>
+    <dimen name="drawable_ring_size">1dp</dimen>
+    <dimen name="intrest_ll_tv_padding_top">5dp</dimen>
+    <dimen name="intrest_textView_text_size">10dp</dimen>
+    <dimen name="intrest_level_of_interest_pading_top">5dp</dimen>
+    <!-- <dimen name="intraction_header_icon_pading">15dp</dimen> -->
+
+
+    <!-- For Comapny -->
+
+    <dimen name="company_ll_tvMeetingDate_text_size">12sp</dimen>
+    <dimen name="company_ll_tvDateForApproval_text_size">12sp</dimen>
+    <dimen name="company_ll_padding_left">8dp</dimen>
+    <dimen name="company_ll_padding_top">5dp</dimen>
+    <dimen name="company_ll_padding_bottom">5dp</dimen>
+    <dimen name="tvDate_textView_text_size">8sp</dimen>
+    <dimen name="tvTime_ll_tv_text_size">8sp</dimen>
+    <dimen name="company_ll_padding_right">10dp</dimen>
+    <dimen name="company_tvtimedate_text_size">10sp</dimen>
+    <dimen name="company_ll_paddingBottom">5dp</dimen>
+    <dimen name="company_ll_paddingLeft">10dp</dimen>
+    <dimen name="company_ll_paddingRight">10dp</dimen>
+    <dimen name="company_ll_paddingTop">5dp</dimen>
+    <dimen name="company_drawablePadding">5dp</dimen>
+    <dimen name="company_paddingTop">10dp</dimen>
+
+    <!-- Add Contact -->
+    <dimen name="ll_margin_top">18dp</dimen>
+    <dimen name="ll_margin_bottom">18dp</dimen>
+    <dimen name="contact_ivCamera_padding">30dp</dimen>
+    <dimen name="contact_rellayout_marginTop">10dp</dimen>
+    <dimen name="contact_textView">15sp</dimen>
+    <dimen name="contact_btn_Textsize">13sp</dimen>
+    <dimen name="contact_et_size">19sp</dimen>
+    <dimen name="contact_ll_button_padding_bottom">4dp</dimen>
+    <dimen name="contact_ll_button_padding_left">10dp</dimen>
+    <dimen name="contact_ll_button_padding_right">10dp</dimen>
+    <dimen name="contact_ll_button_padding_top">80dp</dimen>
+    <dimen name="Contact_Custom_extra_company_actvCompanyName">19sp</dimen>
+    <dimen name="Contact_Custom_extra_company_ivRemove">5dp</dimen>
+    <dimen name="Contact_Custom_autocomplete_suggestion_tv_paddingBottom">4dp</dimen>
+    <dimen name="Contact_Custom_autocomplete_suggestion_tv_paddingLeft">4dp</dimen>
+    <dimen name="Contact_Custom_autocomplete_suggestion_tv_paddingRight">4dp</dimen>
+    <dimen name="Contact_Custom_autocomplete_suggestion_tv_paddingTop">4dp</dimen>
+
+    <!-- Search Interaction -->
+    <dimen name="interaction_tab_text_size">15sp</dimen>
+    <dimen name="lvSearch_Custom_search_interaction">5px</dimen>
+    <dimen name="search_interaction_tab_margin_top">20dp</dimen>
+    <dimen name="tv_padding_bottom">15dp</dimen>
+    <dimen name="tv_padding_top">5dp</dimen>
+    <dimen name="tvDate_approveTranscript">14sp</dimen>
+    <dimen name="tvpadding_bottom">10dp</dimen>
+    <dimen name="tvpadding_left">2dp</dimen>
+    <dimen name="llayout_marginBottom">20dp</dimen>
+    <dimen name="tvDueDate_marginLeft">15dp</dimen>
+    <dimen name="llSubmit_margin_bottom">18dp</dimen>
+    <dimen name="llSubmit_margin_top">18dp</dimen>
+    <dimen name="etMeetingTranscrit_padding_left">16dp</dimen>
+    <dimen name="etMeetingTranscrit_padding_right">16dp</dimen>
+    <dimen name="etMeetingTranscrit_padding_top">9dp</dimen>
+    <dimen name="etMeetingTranscrit_minHeight">80dp</dimen>
+    <dimen name="etMeetingTranscrit_padding_bottom">9dp</dimen>
+
+    <!-- Alert Filter Meeting -->
+    <dimen name="alert_Filter_rlayout_margin">20dp</dimen>
+    <dimen name="alert_filter_layout_padding">15dp</dimen>
+    <dimen name="alert_filter_view_marginBottom">5dp</dimen>
+    <dimen name="alert_filter_view_marginTop">5dp</dimen>
+    <dimen name="alert_filter_tv_paddingBottom">5dp</dimen>
+    <dimen name="alert_filter_tv_paddingLeft">5dp</dimen>
+    <dimen name="alert_filter_tv_paddingTop">10dp</dimen>
+    <dimen name="alert_filter_tvDate_layout_marginTop">10dp</dimen>
+    <dimen name="alert_filter_btApply_layout_marginTop">30dp</dimen>
+    <dimen name="alert_filter_btApply_padding">10dp</dimen>
+    <dimen name="alert_filter_tv_layout_marginTop">5dp</dimen>
+    <dimen name="alert_filter_et_layout_marginRight">1dp</dimen>
+    <dimen name="alert_filter_vLable_layout_height">1dp</dimen>
+
+    <!-- Custom Autocomplete Suggestion -->
+    <dimen name="tvCustomCompName_padding_bottom">12dp</dimen>
+    <dimen name="tvCustomCompName_padding_left">25dp</dimen>
+    <dimen name="rl_padding_top">15dp</dimen>
+    <dimen name="rl_height">50dp</dimen>
+    <dimen name="rl_margin">16dp</dimen>
+    <dimen name="custom_additional_vLable_layout_height">30dp</dimen>
+
+    <!-- Custom contact_Interaction_search -->
+    <dimen name="custom_contact_interaction_search">15sp</dimen>
+
+    <!-- Add task -->
+    <dimen name="add_task_padding_bottom">9dp</dimen>
+    <dimen name="add_task_padding_left">18dp</dimen>
+    <dimen name="add_task_padding_right">18dp</dimen>
+    <dimen name="add_task_padding_top">9dp</dimen>
+    <dimen name="add_task_iv_padding_right">20dp</dimen>
+    <dimen name="add_task_iv_padding_top">20dp</dimen>
+    <dimen name="home_screen_task_row_task_name_text_size">20sp</dimen>
+    <dimen name="task_date_text_size">12sp</dimen>
+    <dimen name="task_broker_name_text_size">13sp</dimen>
+    <dimen name="task_ticket_id_text_size">15sp</dimen>
+    <dimen name="task_llpaddingleft">13dp</dimen>
+
+    <!-- Accordian header -->
+    <dimen name="accord_header_tv_padding_bottom">18dp</dimen>
+    <dimen name="accord_header_tv_padding_left">18dp</dimen>
+    <dimen name="accord_header_tv_padding_right">18dp</dimen>
+    <dimen name="accord_header_tv_padding_top">18dp</dimen>
+
+
+    <!--new-->
+    <dimen name="text_size">19sp</dimen>
+    <dimen name="text_size_heading">15sp</dimen>
+
+
+
+</resources>

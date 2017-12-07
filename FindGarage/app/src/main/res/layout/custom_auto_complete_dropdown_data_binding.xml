@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <data>
+
+        <variable
+            name="listener"
+            type="com.mobicule.edelweiss.eaaanew.databindingsearch.DataBindingAdapter.Listener"/>
+
+        <variable
+            name="model"
+            type="com.mobicule.edelweiss.eaaanew.pojo.details.DetailsBO"/>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:onClick="@{view -> listener.onExampleModelClicked(model)}"
+        android:orientation="vertical">
+
+        &lt;!&ndash; type="com.github.wrdlbrnft.searchablerecyclerviewdemo.ui.adapter.ExampleAdapter.Listener"&ndash;&gt;
+
+
+        <com.mobicule.edelweiss.eaaanew.custom.CustomFontTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ctvDropDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:ellipsize="marquee"
+            android:overScrollMode="never"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:text="@{model.Name}"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+            android:textColor="@color/colorThemeBlue"
+            android:textSize="15sp"
+            app:customFontAutocompleteTextView="@string/helveticaneue_ltstd_lt"/>
+
+        <View
+            android:id="@+id/viewDropLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorThemeBlueDivider"/>
+    </LinearLayout>-->
+
+</layout>

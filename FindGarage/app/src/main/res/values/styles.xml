@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+    <!-- Application theme. -->
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+    <style name="text_view_list_view_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorGreyText</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="custome_text_view_list_view_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorGreyText</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!--
+    Textview style for mandatory fields-->
+
+
+    <style name="text_view_mandatory">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+
+
+    <style name="web_view">
+        <item name="android:textColor">@color/colorThemeBlue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">9dp</item>
+        <item name="android:paddingBottom">9dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:inputType">textCapSentences|textMultiLine</item>
+        <item name="android:completionThreshold">1</item>
+        <item name="android:background">@drawable/auto_complete_shape</item>
+    </style>
+
+    <style name="spinnerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorThemeOrange</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <!--    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+            <item name="textAllCaps">false</item>
+            <item name="android:textSize">16sp</item>
+        </style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+<!--    <style name="ButtonStyleDialog">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/custom_dialog_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/custom_dialog_paading</item>
+    </style>-->
+
+</resources>
